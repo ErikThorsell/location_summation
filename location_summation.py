@@ -24,13 +24,13 @@ def main(apikey):
     gmaps = googlemaps.Client(key=apikey)
 
     # List of hosts, for prettier printing
-    names = ["host1", "host2", "host3", "host4"]
+    names = ["Knugen", "Steffe", "Gudrun", "Ebba"]
 
     # Dictionary of locations to
-    locations = {"host1": "Address 1",
-                 "host2": "Address 2",
-                 "host3": "Address 3",
-                 "host4": "Address 4"}
+    locations = {"Knugen": "Drottningholm Palace, Ekerö, Sweden",
+                 "Steffe": "Sveriges Riksdag, Stockholm, Sweden",
+                 "Gudrun": "Agavägen 52, Lidingö, Sweden",
+                 "Ebba": "Hantverkargatan 45, Stockholm, Sweden"}
 
     # Matrix to hold distances
     distance_matrix = np.zeros((len(locations), len(locations)))
