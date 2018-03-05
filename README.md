@@ -33,3 +33,8 @@ Host: Gudrun, Time: 60 minutes
 Host: Knugen, Time: 68 minutes
 ```
 
+# Dependencies
+
+The script uses the Google Maps' API through the
+[google-maps-services-python](https://github.com/googlemaps/google-maps-services-python)
+module.
