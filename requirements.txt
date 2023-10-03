@@ -4,4 +4,4 @@ googlemaps==2.5.1
 idna==2.6
 numpy==1.22.0
 requests==2.31.0
-urllib3==1.26.5
+urllib3==1.26.17
